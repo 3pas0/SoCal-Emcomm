@@ -1,0 +1,16 @@
+SOCAL EMCOMM WIRE
+=================
+
+LOS ANGELES COUNTY EMERGENCY INFORMATION
+
+FIRE:
+No active incidents loaded yet.
+
+WEATHER:
+No active alerts loaded yet.
+
+EARTHQUAKES:
+No significant events loaded yet.
+
+UPDATED:
+Manual test feed
