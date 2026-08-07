@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Python packages
+      - name: Install requests
         run: |
           python -m pip install --upgrade pip
           pip install requests
@@ -36,6 +36,7 @@ jobs:
       - name: Build SoCal EMCOMM Wire
         run: |
           python <<'PY'
+          import time
           import requests
           from datetime import datetime
           from zoneinfo import ZoneInfo
@@ -43,84 +44,92 @@ jobs:
           FIRE_URL = (
               "https://services3.arcgis.com/"
               "T4QMspbfLg3qTGWY/arcgis/rest/services/"
-              "WFIGS_Incident_Locations_Current/FeatureServer/0/query"
+              "WFIGS_Incident_Locations_Last24h/FeatureServer/0/query"
           )
 
           params = {
-              "where": "POOState='US-CA' AND IncidentTypeCategory='WF'",
-              "outFields": (
-                  "IncidentName,"
-                  "POOCounty,"
-                  "IncidentSize,"
-                  "PercentContained,"
-                  "FireDiscoveryDateTime,"
-                  "ModifiedOnDateTime_dt,"
-                  "UniqueFireIdentifier"
-              ),
+              "where": "POOState='US-CA' AND IncidentTypeCategory='WF' AND POOCounty='Los Angeles'",
+              "outFields": "IncidentName,POOCity,POOCounty,IncidentSize,PercentContained,IncidentShortDescription",
               "returnGeometry": "false",
+              "resultRecordCount": "25",
               "f": "json"
+          }
+
+          headers = {
+              "User-Agent": "SoCal-EMCOMM-Wire/1.0"
           }
 
           fire_lines = []
 
+          def fetch_fire_data():
+              last_error = None
+
+              for attempt in range(3):
+                  try:
+                      response = requests.get(
+                          FIRE_URL,
+                          params=params,
+                          headers=headers,
+                          timeout=30
+                      )
+
+                      if response.status_code == 429:
+                          last_error = "WFIGS rate limit reached"
+                          time.sleep(65)
+                          continue
+
+                      response.raise_for_status()
+
+                      data = response.json()
+
+                      if "error" in data:
+                          raise RuntimeError(data["error"])
+
+                      return data
+
+                  except Exception as error:
+                      last_error = str(error)
+
+                      if attempt < 2:
+                          time.sleep(15)
+
+              raise RuntimeError(last_error)
+
           try:
-              response = requests.get(
-                  FIRE_URL,
-                  params=params,
-                  timeout=30
-              )
+              data = fetch_fire_data()
 
-              response.raise_for_status()
-              data = response.json()
-
-              if "error" in data:
-                  raise RuntimeError(data["error"])
-
-              incidents = []
-
-              for feature in data.get("features", []):
-                  attributes = feature.get("attributes", {})
-
-                  county = str(
-                      attributes.get("POOCounty") or ""
-                  )
-
-                  if "Los Angeles" not in county:
-                      continue
-
-                  incidents.append(attributes)
+              incidents = [
+                  feature.get("attributes", {})
+                  for feature in data.get("features", [])
+              ]
 
               incidents.sort(
-                  key=lambda x: x.get("IncidentSize") or 0,
+                  key=lambda fire: fire.get("IncidentSize") or 0,
                   reverse=True
               )
 
               if incidents:
                   fire_lines.append(
-                      "ACTIVE WILDFIRES - LOS ANGELES COUNTY"
+                      "ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY"
                   )
                   fire_lines.append("")
 
-                  for fire in incidents[:10]:
-                      name = (
-                          fire.get("IncidentName")
-                          or "Unnamed Fire"
-                      )
-
+                  for fire in incidents:
+                      name = fire.get("IncidentName") or "Unnamed"
+                      city = fire.get("POOCity")
+                      county = fire.get("POOCounty") or "Los Angeles"
                       acres = fire.get("IncidentSize")
-
-                      containment = fire.get(
-                          "PercentContained"
-                      )
-
-                      county = (
-                          fire.get("POOCounty")
-                          or "Los Angeles"
-                      )
+                      containment = fire.get("PercentContained")
+                      description = fire.get("IncidentShortDescription")
 
                       fire_lines.append(
                           f"{name.upper()} FIRE"
                       )
+
+                      if city:
+                          fire_lines.append(
+                              f"Area: {city}"
+                          )
 
                       fire_lines.append(
                           f"County: {county}"
@@ -129,7 +138,7 @@ jobs:
                       if acres is not None:
                           try:
                               fire_lines.append(
-                                  f"Size: {float(acres):,.0f} acres"
+                                  f"Size: {float(acres):,.1f} acres"
                               )
                           except Exception:
                               fire_lines.append(
@@ -141,19 +150,23 @@ jobs:
                               f"Containment: {containment}%"
                           )
 
+                      if description:
+                          fire_lines.append(
+                              f"Info: {description}"
+                          )
+
                       fire_lines.append("")
 
               else:
                   fire_lines.append(
-                      "No active WFIGS wildfires currently listed "
-                      "for Los Angeles County."
+                      "No Los Angeles County wildfires were listed "
+                      "in the WFIGS Last 24 Hours feed."
                   )
 
           except Exception as error:
               fire_lines.append(
                   "Fire feed temporarily unavailable."
               )
-
               fire_lines.append(
                   f"Error: {error}"
               )
@@ -163,45 +176,36 @@ jobs:
           ).strftime("%Y-%m-%d %I:%M %p")
 
           wire = f"""SOCAL EMCOMM WIRE
-          =================
+=================
 
-          LOS ANGELES COUNTY EMERGENCY INFORMATION
-
-
-          FIRE:
-          {chr(10).join(fire_lines)}
-
-          SOURCE:
-          NIFC WFIGS Current Incident Locations
+LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
-          WEATHER:
-          Automated weather feed coming next.
+FIRE:
+{chr(10).join(fire_lines)}
+
+SOURCE:
+NIFC WFIGS Incident Locations - Last 24 Hours
 
 
-          EARTHQUAKES:
-          Automated earthquake feed coming next.
+WEATHER:
+Automated weather feed coming next.
 
 
-          UPDATED:
-          {now} PT
-          """
+EARTHQUAKES:
+Automated earthquake feed coming next.
 
-          wire = "\n".join(
-              line[10:]
-              if line.startswith("          ")
-              else line
-              for line in wire.splitlines()
-          )
+
+UPDATED:
+{now} PT
+"""
 
           with open(
               "wire.txt",
               "w",
               encoding="utf-8"
           ) as f:
-              f.write(
-                  wire.strip() + "\n"
-              )
+              f.write(wire)
 
           print(wire)
 
@@ -209,14 +213,11 @@ jobs:
 
       - name: Commit updated wire
         run: |
-          # Save the newly generated wire outside the repo
           cp wire.txt /tmp/wire.txt
 
-          # Get the newest version of main
           git fetch origin main
           git reset --hard origin/main
 
-          # Restore the newly generated wire
           cp /tmp/wire.txt wire.txt
 
           git config user.name "github-actions[bot]"
