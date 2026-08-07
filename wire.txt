@@ -3,14 +3,22 @@ SOCAL EMCOMM WIRE
 
 LOS ANGELES COUNTY EMERGENCY INFORMATION
 
+
 FIRE:
-Automated fire feed coming next.
+Fire feed temporarily unavailable.
+Error: 403 Client Error: Forbidden for url: https://www.fire.ca.gov/incidents/
+
+SOURCE:
+CAL FIRE Active Incidents
+
 
 WEATHER:
 Automated weather feed coming next.
 
+
 EARTHQUAKES:
 Automated earthquake feed coming next.
 
+
 UPDATED:
-GitHub Actions automatic test
+2026-08-07 04:33 PM PT
