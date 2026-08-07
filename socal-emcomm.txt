@@ -1,0 +1,14 @@
+SOCAL EMCOMM REPORT
+===================
+
+SYSTEM STATUS: ONLINE
+
+This is a test of the SOCAL EMCOMM information system.
+
+Future data:
+- LA County Active Fires
+- Whittier Weather
+- NWS Weather Alerts
+- Red Flag Warnings
+
+73
