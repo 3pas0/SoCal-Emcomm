@@ -41,11 +41,7 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          FIRE_URL = (
-              "https://services3.arcgis.com/"
-              "T4QMspbfLg3qTGWY/arcgis/rest/services/"
-              "WFIGS_Incident_Locations_Last24h/FeatureServer/0/query"
-          )
+          FIRE_URL = "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Last24h/FeatureServer/0/query"
 
           params = {
               "where": "POOState='US-CA' AND IncidentTypeCategory='WF' AND POOCounty='Los Angeles'",
@@ -61,47 +57,39 @@ jobs:
 
           fire_lines = []
 
-          def fetch_fire_data():
-              last_error = None
-
+          def get_fire_data():
               for attempt in range(3):
-                  try:
-                      response = requests.get(
-                          FIRE_URL,
-                          params=params,
-                          headers=headers,
-                          timeout=30
-                      )
+                  response = requests.get(
+                      FIRE_URL,
+                      params=params,
+                      headers=headers,
+                      timeout=30
+                  )
 
-                      if response.status_code == 429:
-                          last_error = "WFIGS rate limit reached"
-                          time.sleep(65)
-                          continue
+                  if response.status_code == 429:
+                      print("WFIGS rate limited. Waiting 65 seconds...")
+                      time.sleep(65)
+                      continue
 
-                      response.raise_for_status()
+                  response.raise_for_status()
 
-                      data = response.json()
+                  data = response.json()
 
-                      if "error" in data:
-                          raise RuntimeError(data["error"])
+                  if "error" in data:
+                      raise RuntimeError(str(data["error"]))
 
-                      return data
+                  return data
 
-                  except Exception as error:
-                      last_error = str(error)
-
-                      if attempt < 2:
-                          time.sleep(15)
-
-              raise RuntimeError(last_error)
+              raise RuntimeError("WFIGS rate limit continued after 3 attempts.")
 
           try:
-              data = fetch_fire_data()
+              data = get_fire_data()
 
-              incidents = [
-                  feature.get("attributes", {})
-                  for feature in data.get("features", [])
-              ]
+              incidents = []
+
+              for feature in data.get("features", []):
+                  attributes = feature.get("attributes", {})
+                  incidents.append(attributes)
 
               incidents.sort(
                   key=lambda fire: fire.get("IncidentSize") or 0,
@@ -115,52 +103,45 @@ jobs:
                   fire_lines.append("")
 
                   for fire in incidents:
-                      name = fire.get("IncidentName") or "Unnamed"
+                      name = fire.get("IncidentName") or "Unnamed Fire"
                       city = fire.get("POOCity")
                       county = fire.get("POOCounty") or "Los Angeles"
                       acres = fire.get("IncidentSize")
                       containment = fire.get("PercentContained")
                       description = fire.get("IncidentShortDescription")
 
-                      fire_lines.append(
-                          f"{name.upper()} FIRE"
-                      )
+                      fire_lines.append(name.upper())
 
                       if city:
-                          fire_lines.append(
-                              f"Area: {city}"
-                          )
+                          fire_lines.append("Area: " + str(city))
 
-                      fire_lines.append(
-                          f"County: {county}"
-                      )
+                      fire_lines.append("County: " + str(county))
 
                       if acres is not None:
                           try:
                               fire_lines.append(
-                                  f"Size: {float(acres):,.1f} acres"
+                                  "Size: {:,.1f} acres".format(float(acres))
                               )
                           except Exception:
                               fire_lines.append(
-                                  f"Size: {acres} acres"
+                                  "Size: " + str(acres) + " acres"
                               )
 
                       if containment is not None:
                           fire_lines.append(
-                              f"Containment: {containment}%"
+                              "Containment: " + str(containment) + "%"
                           )
 
                       if description:
                           fire_lines.append(
-                              f"Info: {description}"
+                              "Info: " + str(description)
                           )
 
                       fire_lines.append("")
 
               else:
                   fire_lines.append(
-                      "No Los Angeles County wildfires were listed "
-                      "in the WFIGS Last 24 Hours feed."
+                      "No Los Angeles County wildfires listed in the last 24 hours."
                   )
 
           except Exception as error:
@@ -168,47 +149,45 @@ jobs:
                   "Fire feed temporarily unavailable."
               )
               fire_lines.append(
-                  f"Error: {error}"
+                  "Error: " + str(error)
               )
 
           now = datetime.now(
               ZoneInfo("America/Los_Angeles")
           ).strftime("%Y-%m-%d %I:%M %p")
 
-          wire = f"""SOCAL EMCOMM WIRE
-=================
+          output = []
 
-LOS ANGELES COUNTY EMERGENCY INFORMATION
+          output.append("SOCAL EMCOMM WIRE")
+          output.append("=================")
+          output.append("")
+          output.append("LOS ANGELES COUNTY EMERGENCY INFORMATION")
+          output.append("")
+          output.append("")
+          output.append("FIRE:")
+          output.extend(fire_lines)
+          output.append("")
+          output.append("SOURCE:")
+          output.append("NIFC WFIGS Incident Locations - Last 24 Hours")
+          output.append("")
+          output.append("")
+          output.append("WEATHER:")
+          output.append("Automated weather feed coming next.")
+          output.append("")
+          output.append("")
+          output.append("EARTHQUAKES:")
+          output.append("Automated earthquake feed coming next.")
+          output.append("")
+          output.append("")
+          output.append("UPDATED:")
+          output.append(now + " PT")
 
+          wire = "\n".join(output) + "\n"
 
-FIRE:
-{chr(10).join(fire_lines)}
-
-SOURCE:
-NIFC WFIGS Incident Locations - Last 24 Hours
-
-
-WEATHER:
-Automated weather feed coming next.
-
-
-EARTHQUAKES:
-Automated earthquake feed coming next.
-
-
-UPDATED:
-{now} PT
-"""
-
-          with open(
-              "wire.txt",
-              "w",
-              encoding="utf-8"
-          ) as f:
-              f.write(wire)
+          with open("wire.txt", "w", encoding="utf-8") as file:
+              file.write(wire)
 
           print(wire)
-
           PY
 
       - name: Commit updated wire
