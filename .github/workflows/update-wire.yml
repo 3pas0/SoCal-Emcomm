@@ -69,8 +69,8 @@ jobs:
                   params=params,
                   timeout=30
               )
-              response.raise_for_status()
 
+              response.raise_for_status()
               data = response.json()
 
               if "error" in data:
@@ -79,14 +79,16 @@ jobs:
               incidents = []
 
               for feature in data.get("features", []):
-                  a = feature.get("attributes", {})
+                  attributes = feature.get("attributes", {})
 
-                  county = str(a.get("POOCounty") or "")
+                  county = str(
+                      attributes.get("POOCounty") or ""
+                  )
 
                   if "Los Angeles" not in county:
                       continue
 
-                  incidents.append(a)
+                  incidents.append(attributes)
 
               incidents.sort(
                   key=lambda x: x.get("IncidentSize") or 0,
@@ -100,10 +102,21 @@ jobs:
                   fire_lines.append("")
 
                   for fire in incidents[:10]:
-                      name = fire.get("IncidentName") or "Unnamed Fire"
+                      name = (
+                          fire.get("IncidentName")
+                          or "Unnamed Fire"
+                      )
+
                       acres = fire.get("IncidentSize")
-                      containment = fire.get("PercentContained")
-                      county = fire.get("POOCounty") or "Los Angeles"
+
+                      containment = fire.get(
+                          "PercentContained"
+                      )
+
+                      county = (
+                          fire.get("POOCounty")
+                          or "Los Angeles"
+                      )
 
                       fire_lines.append(
                           f"{name.upper()} FIRE"
@@ -118,7 +131,7 @@ jobs:
                               fire_lines.append(
                                   f"Size: {float(acres):,.0f} acres"
                               )
-                          except:
+                          except Exception:
                               fire_lines.append(
                                   f"Size: {acres} acres"
                               )
@@ -140,6 +153,7 @@ jobs:
               fire_lines.append(
                   "Fire feed temporarily unavailable."
               )
+
               fire_lines.append(
                   f"Error: {error}"
               )
@@ -174,7 +188,9 @@ jobs:
           """
 
           wire = "\n".join(
-              line[10:] if line.startswith("          ") else line
+              line[10:]
+              if line.startswith("          ")
+              else line
               for line in wire.splitlines()
           )
 
@@ -183,7 +199,9 @@ jobs:
               "w",
               encoding="utf-8"
           ) as f:
-              f.write(wire.strip() + "\n")
+              f.write(
+                  wire.strip() + "\n"
+              )
 
           print(wire)
 
@@ -191,6 +209,16 @@ jobs:
 
       - name: Commit updated wire
         run: |
+          # Save the newly generated wire outside the repo
+          cp wire.txt /tmp/wire.txt
+
+          # Get the newest version of main
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Restore the newly generated wire
+          cp /tmp/wire.txt wire.txt
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -202,7 +230,4 @@ jobs:
           fi
 
           git commit -m "Update emergency wire"
-
-          git pull --rebase origin main
-
-          git push origin main
+          git push origin HEAD:main
