@@ -2,6 +2,7 @@ name: Update SoCal EMCOMM Wire
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "*/30 * * * *"
 
@@ -16,75 +17,160 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update weather feed
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
         run: |
-          python3 <<'PY'
-          import json
-          import urllib.request
-          from datetime import datetime, timezone
+          pip install requests beautifulsoup4
 
-          url = "https://api.weather.gov/alerts/active?point=33.9792,-118.0328"
+      - name: Update LA County fire feed
+        run: |
+          python <<'PY'
+          import requests
+          from bs4 import BeautifulSoup
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import re
 
-          request = urllib.request.Request(
-              url,
-              headers={
-                  "User-Agent": "SoCal-Emcomm",
-                  "Accept": "application/geo+json"
-              }
-          )
+          URL = "https://www.fire.ca.gov/incidents/"
+
+          headers = {
+              "User-Agent": "SoCal-EMCOMM-Wire/1.0"
+          }
 
           try:
-              with urllib.request.urlopen(request, timeout=30) as response:
-                  data = json.load(response)
+              response = requests.get(URL, headers=headers, timeout=30)
+              response.raise_for_status()
 
-              alerts = data.get("features", [])
+              soup = BeautifulSoup(response.text, "html.parser")
 
-              if alerts:
-                  weather = []
-                  for alert in alerts[:5]:
-                      info = alert["properties"]
-                      weather.append(
-                          f"{info.get('event', 'Weather Alert')} - "
-                          f"{info.get('severity', 'Unknown')}"
-                      )
-                      weather.append(info.get("headline", ""))
+              incidents = []
+
+              for row in soup.find_all("tr"):
+                  cells = row.find_all("td")
+
+                  if len(cells) < 5:
+                      continue
+
+                  values = [
+                      cell.get_text(" ", strip=True)
+                      for cell in cells
+                  ]
+
+                  incident = values[0]
+                  county = values[1]
+                  started = values[2]
+                  acres = values[3]
+                  containment = values[4]
+
+                  if "los angeles" in county.lower():
+                      incidents.append({
+                          "incident": incident,
+                          "county": county,
+                          "started": started,
+                          "acres": acres,
+                          "containment": containment
+                      })
+
+              if incidents:
+                  fire_lines = [
+                      "FIRE:",
+                      "SOURCE: CAL FIRE",
+                      ""
+                  ]
+
+                  for fire in incidents:
+                      fire_lines.extend([
+                          f"[ACTIVE] {fire['incident']}",
+                          f"County: {fire['county']}",
+                          f"Started: {fire['started']}",
+                          f"Acres: {fire['acres']}",
+                          f"Containment: {fire['containment']}",
+                          ""
+                      ])
+
               else:
-                  weather = ["No active NWS alerts for Whittier."]
+                  fire_lines = [
+                      "FIRE:",
+                      "SOURCE: CAL FIRE",
+                      "No active CAL FIRE incidents listed for Los Angeles County.",
+                      ""
+                  ]
 
-          except Exception as error:
-              weather = ["Weather feed unavailable: " + str(error)]
+          except Exception as e:
+              fire_lines = [
+                  "FIRE:",
+                  "SOURCE: CAL FIRE",
+                  "Fire feed temporarily unavailable.",
+                  ""
+              ]
+              print("Fire feed error:", e)
 
-          updated = datetime.now(timezone.utc).strftime(
-              "%Y-%m-%d %H:%M UTC"
+          fire_section = "\n".join(fire_lines)
+
+          try:
+              with open("wire.txt", "r", encoding="utf-8") as f:
+                  wire = f.read()
+          except FileNotFoundError:
+              wire = """SOCAL EMCOMM WIRE
+          =================
+
+          LOS ANGELES COUNTY EMERGENCY INFORMATION
+
+          FIRE:
+          No data.
+
+          WEATHER:
+          Automated weather feed coming next.
+
+          EARTHQUAKES:
+          Automated earthquake feed coming next.
+
+          UPDATED:
+          """
+
+          pattern = r"FIRE:.*?(?=\nWEATHER:)"
+
+          if re.search(pattern, wire, flags=re.DOTALL):
+              wire = re.sub(
+                  pattern,
+                  fire_section + "\n",
+                  wire,
+                  flags=re.DOTALL
+              )
+          else:
+              print("Could not locate FIRE section.")
+
+          now = datetime.now(
+              ZoneInfo("America/Los_Angeles")
+          ).strftime("%Y-%m-%d %H:%M PT")
+
+          wire = re.sub(
+              r"UPDATED:.*",
+              f"UPDATED:\n{now}",
+              wire,
+              flags=re.DOTALL
           )
 
-          lines = [
-              "SOCAL EMCOMM WIRE",
-              "=================",
-              "",
-              "LOS ANGELES COUNTY EMERGENCY INFORMATION",
-              "",
-              "FIRE:",
-              "Automated fire feed coming next.",
-              "",
-              "WEATHER:",
-              *weather,
-              "",
-              "EARTHQUAKES:",
-              "Automated earthquake feed coming next.",
-              "",
-              "UPDATED:",
-              updated,
-          ]
+          with open("wire.txt", "w", encoding="utf-8") as f:
+              f.write(wire)
 
-          with open("wire.txt", "w", encoding="utf-8") as file:
-              file.write("\n".join(lines) + "\n")
+          print(wire)
           PY
 
-      - name: Commit wire.txt
+      - name: Commit updated wire
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add wire.txt
-          git diff --cached --quiet || git commit -m "Update SoCal EMCOMM wire"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update LA County fire feed"
+            git push
+          fi
