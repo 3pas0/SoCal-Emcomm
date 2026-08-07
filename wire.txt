@@ -6,10 +6,10 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 FIRE:
 Fire feed temporarily unavailable.
-Error: 403 Client Error: Forbidden for url: https://www.fire.ca.gov/incidents/
+Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (77610 request units)! maximum allowed request units (57600) per Minute. Retry after 60 sec.']}
 
 SOURCE:
-CAL FIRE Active Incidents
+NIFC WFIGS Current Incident Locations
 
 
 WEATHER:
@@ -21,4 +21,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-07 04:33 PM PT
+2026-08-07 04:45 PM PT
