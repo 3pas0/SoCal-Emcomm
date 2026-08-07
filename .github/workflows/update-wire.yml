@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: socal-emcomm-wire
+  cancel-in-progress: false
+
 jobs:
   update-wire:
     runs-on: ubuntu-latest
@@ -16,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,150 +30,142 @@ jobs:
 
       - name: Install Python packages
         run: |
+          python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Update LA County fire feed
+      - name: Build SoCal EMCOMM Wire
         run: |
           python <<'PY'
           import requests
           from bs4 import BeautifulSoup
           from datetime import datetime
           from zoneinfo import ZoneInfo
-          import re
 
           URL = "https://www.fire.ca.gov/incidents/"
 
           headers = {
-              "User-Agent": "SoCal-EMCOMM-Wire/1.0"
+              "User-Agent": "SoCal-Emcomm/1.0"
           }
 
+          fire_lines = []
+
           try:
-              response = requests.get(URL, headers=headers, timeout=30)
+              response = requests.get(
+                  URL,
+                  headers=headers,
+                  timeout=30
+              )
+
               response.raise_for_status()
 
               soup = BeautifulSoup(response.text, "html.parser")
 
+              tables = soup.find_all("table")
+
               incidents = []
 
-              for row in soup.find_all("tr"):
-                  cells = row.find_all("td")
+              for table in tables:
+                  rows = table.find_all("tr")
 
-                  if len(cells) < 5:
-                      continue
+                  for row in rows:
+                      cells = [
+                          cell.get_text(" ", strip=True)
+                          for cell in row.find_all(["td", "th"])
+                      ]
 
-                  values = [
-                      cell.get_text(" ", strip=True)
-                      for cell in cells
-                  ]
+                      if len(cells) < 2:
+                          continue
 
-                  incident = values[0]
-                  county = values[1]
-                  started = values[2]
-                  acres = values[3]
-                  containment = values[4]
+                      row_text = " | ".join(cells)
 
-                  if "los angeles" in county.lower():
-                      incidents.append({
-                          "incident": incident,
-                          "county": county,
-                          "started": started,
-                          "acres": acres,
-                          "containment": containment
-                      })
+                      if "Los Angeles" in row_text:
+                          incidents.append(cells)
 
               if incidents:
-                  fire_lines = [
-                      "FIRE:",
-                      "SOURCE: CAL FIRE",
-                      ""
-                  ]
+                  fire_lines.append(
+                      "ACTIVE CAL FIRE INCIDENTS - LOS ANGELES COUNTY"
+                  )
+                  fire_lines.append("")
 
-                  for fire in incidents:
-                      fire_lines.extend([
-                          f"[ACTIVE] {fire['incident']}",
-                          f"County: {fire['county']}",
-                          f"Started: {fire['started']}",
-                          f"Acres: {fire['acres']}",
-                          f"Containment: {fire['containment']}",
-                          ""
-                      ])
+                  for incident in incidents:
+                      fire_lines.append(
+                          " | ".join(incident)
+                      )
+                      fire_lines.append("")
 
               else:
-                  fire_lines = [
-                      "FIRE:",
-                      "SOURCE: CAL FIRE",
-                      "No active CAL FIRE incidents listed for Los Angeles County.",
-                      ""
-                  ]
+                  fire_lines.append(
+                      "No active CAL FIRE incidents listed for Los Angeles County."
+                  )
 
-          except Exception as e:
-              fire_lines = [
-                  "FIRE:",
-                  "SOURCE: CAL FIRE",
-                  "Fire feed temporarily unavailable.",
-                  ""
-              ]
-              print("Fire feed error:", e)
+          except Exception as error:
+              fire_lines.append(
+                  "Fire feed temporarily unavailable."
+              )
+              fire_lines.append(
+                  f"Error: {error}"
+              )
 
-          fire_section = "\n".join(fire_lines)
+          now = datetime.now(
+              ZoneInfo("America/Los_Angeles")
+          ).strftime("%Y-%m-%d %I:%M %p")
 
-          try:
-              with open("wire.txt", "r", encoding="utf-8") as f:
-                  wire = f.read()
-          except FileNotFoundError:
-              wire = """SOCAL EMCOMM WIRE
+          wire = f"""SOCAL EMCOMM WIRE
           =================
 
           LOS ANGELES COUNTY EMERGENCY INFORMATION
 
+
           FIRE:
-          No data.
+          {chr(10).join(fire_lines)}
+
+          SOURCE:
+          CAL FIRE Active Incidents
+
 
           WEATHER:
           Automated weather feed coming next.
 
+
           EARTHQUAKES:
           Automated earthquake feed coming next.
 
+
           UPDATED:
+          {now} PT
           """
 
-          pattern = r"FIRE:.*?(?=\nWEATHER:)"
-
-          if re.search(pattern, wire, flags=re.DOTALL):
-              wire = re.sub(
-                  pattern,
-                  fire_section + "\n",
-                  wire,
-                  flags=re.DOTALL
-              )
-          else:
-              print("Could not locate FIRE section.")
-
-          now = datetime.now(
-              ZoneInfo("America/Los_Angeles")
-          ).strftime("%Y-%m-%d %H:%M PT")
-
-          wire = re.sub(
-              r"UPDATED:.*",
-              f"UPDATED:\n{now}",
-              wire,
-              flags=re.DOTALL
+          # Remove YAML/Python indentation from output
+          wire = "\n".join(
+              line.strip() if line.startswith("          ") else line
+              for line in wire.splitlines()
           )
 
-          with open("wire.txt", "w", encoding="utf-8") as f:
-              f.write(wire)
+          with open(
+              "wire.txt",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              f.write(wire.strip() + "\n")
 
           print(wire)
+
           PY
 
-           - name: Commit updated wire
+      - name: Commit updated wire
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add wire.txt
-          git commit -m "Update emergency wire" || exit 0
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update emergency wire"
 
           git pull --rebase origin main
+
           git push origin main
