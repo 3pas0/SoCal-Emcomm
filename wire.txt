@@ -5,8 +5,69 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
 FIRE:
-Fire feed temporarily unavailable.
-Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (75734 request units)! maximum allowed request units (57600) per Minute. Retry after 60 sec.']}
+ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
+
+RIDGE
+Area: Gorman
+County: Los Angeles
+Size: 1,057.0 acres
+Containment: 0%
+Info: 25 Miles S from Bakersfield, CA
+
+LAC-277904
+County: Los Angeles
+
+LAC-277927
+County: Los Angeles
+
+SOTO
+County: Los Angeles
+
+LAC-277998
+County: Los Angeles
+
+LAC-278145
+County: Los Angeles
+
+LAC-278265
+County: Los Angeles
+
+ARCHER
+County: Los Angeles
+
+LAC-278615
+County: Los Angeles
+
+CORY
+County: Los Angeles
+
+LAC-278765
+County: Los Angeles
+
+LAC-278789
+County: Los Angeles
+
+ROBIN
+County: Los Angeles
+
+LAC-278934
+County: Los Angeles
+
+LAC-278977
+County: Los Angeles
+
+LAC-279038
+County: Los Angeles
+
+LAC-279045
+County: Los Angeles
+
+LAC-279238
+County: Los Angeles
+
+LAC-279321
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +82,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-07 04:51 PM PT
+2026-08-07 08:59 PM PT
