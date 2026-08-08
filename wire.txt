@@ -14,18 +14,6 @@ Size: 1,057.0 acres
 Containment: 0%
 Info: 25 Miles S from Bakersfield, CA
 
-LAC-277904
-County: Los Angeles
-
-LAC-277927
-County: Los Angeles
-
-SOTO
-County: Los Angeles
-
-LAC-277998
-County: Los Angeles
-
 LAC-278145
 County: Los Angeles
 
@@ -68,6 +56,12 @@ County: Los Angeles
 LAC-279321
 County: Los Angeles
 
+LAC-279333
+County: Los Angeles
+
+LAC-279423
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -82,4 +76,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-07 08:59 PM PT
+2026-08-07 11:05 PM PT
