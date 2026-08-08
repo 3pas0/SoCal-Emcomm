@@ -14,11 +14,9 @@ Size: 1,057.0 acres
 Containment: 0%
 Info: 25 Miles S from Bakersfield, CA
 
-LAC-278265
+GABRIEL
 County: Los Angeles
-
-ARCHER
-County: Los Angeles
+Size: 0.1 acres
 
 LAC-278615
 County: Los Angeles
@@ -76,4 +74,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-08 04:49 AM PT
+2026-08-08 07:04 AM PT
