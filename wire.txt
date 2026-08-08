@@ -18,9 +18,6 @@ GABRIEL
 County: Los Angeles
 Size: 0.1 acres
 
-CORY
-County: Los Angeles
-
 LAC-278765
 County: Los Angeles
 
@@ -63,6 +60,9 @@ County: Los Angeles
 BAR
 County: Los Angeles
 
+TAMMY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -77,4 +77,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-08 12:16 PM PT
+2026-08-08 02:00 PM PT
