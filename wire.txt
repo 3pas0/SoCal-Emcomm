@@ -11,9 +11,6 @@ GABRIEL
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-279423
-County: Los Angeles
-
 LAC-279587
 County: Los Angeles
 
@@ -47,6 +44,12 @@ County: Los Angeles
 LAC-280643
 County: Los Angeles
 
+LAC-280745
+County: Los Angeles
+
+LAC-280796
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -61,4 +64,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-08 09:42 PM PT
+2026-08-09 12:57 AM PT
