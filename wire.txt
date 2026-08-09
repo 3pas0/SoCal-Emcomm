@@ -11,9 +11,6 @@ GABRIEL
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-279587
-County: Los Angeles
-
 LAC-279773
 County: Los Angeles
 
@@ -64,4 +61,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-09 12:57 AM PT
+2026-08-09 03:03 AM PT
