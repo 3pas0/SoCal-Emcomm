@@ -5,8 +5,48 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
 FIRE:
-Fire feed temporarily unavailable.
-Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (125895 request units)! maximum allowed request units (115200) per Minute. Retry after 60 sec.']}
+ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
+
+GABRIEL
+County: Los Angeles
+Size: 0.1 acres
+
+LAC-279423
+County: Los Angeles
+
+LAC-279587
+County: Los Angeles
+
+LAC-279773
+County: Los Angeles
+
+BAR
+County: Los Angeles
+
+TAMMY
+County: Los Angeles
+
+LAC-280331
+County: Los Angeles
+
+WALNUT
+County: Los Angeles
+
+LAC-280362
+County: Los Angeles
+
+TASHA
+County: Los Angeles
+
+LAC-280386
+County: Los Angeles
+
+LAC-280449
+County: Los Angeles
+
+LAC-280643
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +61,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-08 04:49 PM PT
+2026-08-08 09:42 PM PT
