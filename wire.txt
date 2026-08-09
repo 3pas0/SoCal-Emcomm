@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-BAR
-County: Los Angeles
-
 TAMMY
 County: Los Angeles
 
@@ -55,6 +52,15 @@ County: Los Angeles
 LAC-281232
 County: Los Angeles
 
+LAC-281316
+County: Los Angeles
+
+LAC-281344
+County: Los Angeles
+
+LAC-281421
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -69,4 +75,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-09 10:17 AM PT
+2026-08-09 12:21 PM PT
