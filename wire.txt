@@ -5,8 +5,68 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
 FIRE:
-Fire feed temporarily unavailable.
-Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (135337 request units)! maximum allowed request units (115200) per Minute. Retry after 60 sec.']}
+ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
+
+LAC-280745
+County: Los Angeles
+
+LAC-280796
+County: Los Angeles
+
+LAC-281001
+County: Los Angeles
+
+CATTLE
+County: Los Angeles
+
+DALTON
+County: Los Angeles
+
+LAC-281137
+County: Los Angeles
+
+LAC-281232
+County: Los Angeles
+
+LAC-281316
+County: Los Angeles
+
+LAC-281344
+County: Los Angeles
+
+LAC-281421
+County: Los Angeles
+
+LAC-281493
+County: Los Angeles
+
+DAMON
+County: Los Angeles
+
+LAC-281867
+County: Los Angeles
+
+LAC-281870
+County: Los Angeles
+
+LAC-281879
+County: Los Angeles
+
+LAC-281953
+County: Los Angeles
+
+LAC-281960
+County: Los Angeles
+
+LAC-281987
+County: Los Angeles
+
+LAC-281993
+County: Los Angeles
+
+LAC-282016
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +81,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-09 04:01 PM PT
+2026-08-09 10:08 PM PT
