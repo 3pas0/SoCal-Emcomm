@@ -6,7 +6,7 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 FIRE:
 Fire feed temporarily unavailable.
-Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (117108 request units)! maximum allowed request units (115200) per Minute. Retry after 60 sec.']}
+Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (115600 request units)! maximum allowed request units (115200) per Minute. Retry after 60 sec.']}
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +21,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-10 01:09 PM PT
+2026-08-10 03:20 PM PT
