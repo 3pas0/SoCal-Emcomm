@@ -7,8 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-GLASS
+PIPE
 County: Los Angeles
+Size: 0.1 acres
 
 LAC-286099
 County: Los Angeles
@@ -20,6 +21,12 @@ LAC-286173
 County: Los Angeles
 
 LAC-286317
+County: Los Angeles
+
+LAC-286785
+County: Los Angeles
+
+LAC-286838
 County: Los Angeles
 
 
@@ -36,4 +43,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-13 12:47 PM PT
+2026-08-13 03:23 PM PT
