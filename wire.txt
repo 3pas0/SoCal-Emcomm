@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-GOLDEN
-County: Los Angeles
-
 GLASS
 County: Los Angeles
 
@@ -39,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-13 09:11 AM PT
+2026-08-13 12:47 PM PT
