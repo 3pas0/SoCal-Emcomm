@@ -7,10 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-PIPE
-County: Los Angeles
-Size: 0.1 acres
-
 LAC-286785
 County: Los Angeles
 
@@ -56,6 +52,9 @@ County: Los Angeles
 LAC-287801
 County: Los Angeles
 
+BAKER
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -70,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-14 11:11 AM PT
+2026-08-14 01:06 PM PT
