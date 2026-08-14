@@ -11,9 +11,6 @@ PIPE
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-286317
-County: Los Angeles
-
 LAC-286785
 County: Los Angeles
 
@@ -61,4 +58,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-14 05:29 AM PT
+2026-08-14 08:25 AM PT
