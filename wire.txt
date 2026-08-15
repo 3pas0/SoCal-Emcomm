@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-BAKER
-County: Los Angeles
-
 LAC-288047
 County: Los Angeles
 
@@ -90,4 +87,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-15 12:00 PM PT
+2026-08-15 12:42 PM PT
