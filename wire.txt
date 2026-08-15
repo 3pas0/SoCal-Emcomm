@@ -7,21 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-286989
-County: Los Angeles
-
-LAC-287034
-County: Los Angeles
-
-LAC-287040
-County: Los Angeles
-
-LAC-287034
-County: Los Angeles
-
-LAC-287040
-County: Los Angeles
-
 LAC-287279
 County: Los Angeles
 
@@ -55,6 +40,27 @@ County: Los Angeles
 GOLDEN
 County: Los Angeles
 
+MAPLE
+County: Los Angeles
+
+LAC-288249
+County: Los Angeles
+
+LAC-288332
+County: Los Angeles
+
+LAC-288354
+County: Los Angeles
+
+LAC-288357
+County: Los Angeles
+
+DAMON
+County: Los Angeles
+
+LAC-288451
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -69,4 +75,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-14 04:47 PM PT
+2026-08-14 07:41 PM PT
