@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-ROVER
-County: Los Angeles
-
 LAC-289448
 County: Los Angeles
 
@@ -39,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-16 01:49 PM PT
+2026-08-16 02:39 PM PT
