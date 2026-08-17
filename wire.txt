@@ -28,9 +28,6 @@ County: Los Angeles
 LAC-290713
 County: Los Angeles
 
-LAC-290553
-County: Los Angeles
-
 LAC-291790
 County: Los Angeles
 
@@ -51,4 +48,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-17 11:00 AM PT
+2026-08-17 12:46 PM PT
