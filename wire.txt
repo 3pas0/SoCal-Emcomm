@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-291612
-County: Los Angeles
-
 LAC-291790
 County: Los Angeles
 
@@ -31,6 +28,9 @@ County: Los Angeles
 LAC-292726
 County: Los Angeles
 
+LAC-293045
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -45,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-18 07:02 AM PT
+2026-08-18 08:57 AM PT
