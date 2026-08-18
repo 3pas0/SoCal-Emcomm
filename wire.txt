@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-292153
-County: Los Angeles
-
 BIKE
 County: Los Angeles
 
@@ -51,4 +48,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-18 02:49 PM PT
+2026-08-18 03:54 PM PT
