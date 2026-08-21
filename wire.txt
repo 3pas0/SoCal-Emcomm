@@ -11,12 +11,6 @@ CRISTO
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-296049
-County: Los Angeles
-
-LAC-296084
-County: Los Angeles
-
 CUTOFF
 County: Los Angeles
 
@@ -44,6 +38,12 @@ County: Los Angeles
 LAC-297330
 County: Los Angeles
 
+LAC-297484
+County: Los Angeles
+
+LAC-297488
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -58,4 +58,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-21 01:53 PM PT
+2026-08-21 02:51 PM PT
