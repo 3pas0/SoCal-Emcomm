@@ -7,6 +7,10 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
+CRISTO
+County: Los Angeles
+Size: 0.1 acres
+
 LAC-295363
 County: Los Angeles
 
@@ -46,6 +50,9 @@ County: Los Angeles
 LAC-296494
 County: Los Angeles
 
+LAC-296619
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -60,4 +67,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-20 08:30 PM PT
+2026-08-20 10:20 PM PT
