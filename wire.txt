@@ -11,9 +11,6 @@ CRISTO
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-295619
-County: Los Angeles
-
 LAC-295654
 County: Los Angeles
 
@@ -67,4 +64,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-21 06:58 AM PT
+2026-08-21 08:19 AM PT
