@@ -11,9 +11,6 @@ CRISTO
 County: Los Angeles
 Size: 0.1 acres
 
-CUTOFF
-County: Los Angeles
-
 LAC-296494
 County: Los Angeles
 
@@ -41,7 +38,10 @@ County: Los Angeles
 LAC-297484
 County: Los Angeles
 
-LAC-297488
+ROVER
+County: Los Angeles
+
+LAC-297529
 County: Los Angeles
 
 
@@ -58,4 +58,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-21 02:51 PM PT
+2026-08-21 03:54 PM PT
