@@ -11,9 +11,6 @@ MESA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-297051
-County: Los Angeles
-
 LAC-297151
 County: Los Angeles
 
@@ -77,6 +74,9 @@ County: Los Angeles
 BRIGGS
 County: Los Angeles
 
+LAC-298474
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -91,4 +91,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-22 08:42 AM PT
+2026-08-22 09:53 AM PT
