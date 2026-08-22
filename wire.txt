@@ -74,6 +74,9 @@ County: Los Angeles
 LAC-298373
 County: Los Angeles
 
+BRIGGS
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -88,4 +91,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-22 07:50 AM PT
+2026-08-22 08:42 AM PT
