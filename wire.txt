@@ -11,15 +11,6 @@ MESA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-297581
-County: Los Angeles
-
-LAC-297622
-County: Los Angeles
-
-LAC-297638
-County: Los Angeles
-
 LAC-297929
 County: Los Angeles
 
@@ -88,4 +79,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-22 03:49 PM PT
+2026-08-22 04:40 PM PT
