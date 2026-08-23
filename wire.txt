@@ -71,6 +71,9 @@ County: Los Angeles
 JASPER
 County: Los Angeles
 
+LAC-300436
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -85,4 +88,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 02:41 PM PT
+2026-08-23 03:49 PM PT
