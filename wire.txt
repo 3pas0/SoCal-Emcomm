@@ -11,17 +11,9 @@ MESA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-297929
+ARCHER
 County: Los Angeles
-
-LAC-297933
-County: Los Angeles
-
-LAC-297948
-County: Los Angeles
-
-LAC-298013
-County: Los Angeles
+Size: 0.1 acres
 
 LAC-298044
 County: Los Angeles
@@ -74,6 +66,9 @@ County: Los Angeles
 LAC-299374
 County: Los Angeles
 
+DUME
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -88,4 +83,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-22 08:29 PM PT
+2026-08-22 10:04 PM PT
