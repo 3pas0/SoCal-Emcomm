@@ -11,12 +11,6 @@ ARCHER
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-298843
-County: Los Angeles
-
-LAC-298861
-County: Los Angeles
-
 ARCHER
 County: Los Angeles
 
@@ -71,6 +65,12 @@ County: Los Angeles
 DOMINO
 County: Los Angeles
 
+LAC-300319
+County: Los Angeles
+
+JASPER
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -85,4 +85,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 01:50 PM PT
+2026-08-23 02:41 PM PT
