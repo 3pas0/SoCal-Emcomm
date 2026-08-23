@@ -11,12 +11,6 @@ ARCHER
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-298711
-County: Los Angeles
-
-LAC-298729
-County: Los Angeles
-
 LAC-298765
 County: Los Angeles
 
@@ -85,4 +79,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 12:00 PM PT
+2026-08-23 12:54 PM PT
