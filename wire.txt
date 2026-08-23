@@ -7,16 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-MESA
-County: Los Angeles
-Size: 0.1 acres
-
 ARCHER
 County: Los Angeles
 Size: 0.1 acres
-
-MESA
-County: Los Angeles
 
 LAC-298299
 County: Los Angeles
@@ -92,4 +85,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 12:21 AM PT
+2026-08-23 01:57 AM PT
