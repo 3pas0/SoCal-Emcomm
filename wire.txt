@@ -62,6 +62,12 @@ County: Los Angeles
 LAC-299867
 County: Los Angeles
 
+LAC-299880
+County: Los Angeles
+
+LAC-299886
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -76,4 +82,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 06:49 AM PT
+2026-08-23 07:53 AM PT
