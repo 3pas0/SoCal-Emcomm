@@ -7,22 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-ARCHER
-County: Los Angeles
-Size: 0.1 acres
-
-ARCHER
-County: Los Angeles
-
-LAC-299236
-County: Los Angeles
-
-LAC-299374
-County: Los Angeles
-
-DUME
-County: Los Angeles
-
 LAC-299553
 County: Los Angeles
 
@@ -77,6 +61,12 @@ County: Los Angeles
 LAC-300511
 County: Los Angeles
 
+AVA
+County: Los Angeles
+
+ETHAN
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -91,4 +81,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 04:40 PM PT
+2026-08-23 08:32 PM PT
