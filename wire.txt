@@ -7,6 +7,10 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
+VISTA
+County: Los Angeles
+Size: 0.1 acres
+
 LAC-299553
 County: Los Angeles
 
@@ -67,6 +71,12 @@ County: Los Angeles
 ETHAN
 County: Los Angeles
 
+VISTA
+County: Los Angeles
+
+LAC-300894
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -81,4 +91,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-23 08:32 PM PT
+2026-08-23 10:57 PM PT
