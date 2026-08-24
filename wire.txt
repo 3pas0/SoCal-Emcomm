@@ -11,15 +11,6 @@ VISTA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-299867
-County: Los Angeles
-
-LAC-299880
-County: Los Angeles
-
-LAC-299886
-County: Los Angeles
-
 LAC-299938
 County: Los Angeles
 
@@ -85,4 +76,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-24 04:48 AM PT
+2026-08-24 07:24 AM PT
