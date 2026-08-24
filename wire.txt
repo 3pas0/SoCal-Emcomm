@@ -11,9 +11,6 @@ VISTA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-300511
-County: Los Angeles
-
 AVA
 County: Los Angeles
 
@@ -67,4 +64,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-24 03:48 PM PT
+2026-08-24 04:43 PM PT
