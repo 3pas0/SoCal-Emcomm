@@ -11,9 +11,6 @@ VISTA
 County: Los Angeles
 Size: 0.1 acres
 
-HANGER
-County: Los Angeles
-
 LAC-300253
 County: Los Angeles
 
@@ -59,6 +56,9 @@ County: Los Angeles
 LAC-301423
 County: Los Angeles
 
+LAC-301637
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -73,4 +73,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-24 10:57 AM PT
+2026-08-24 12:18 PM PT
