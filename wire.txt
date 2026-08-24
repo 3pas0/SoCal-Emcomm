@@ -11,21 +11,6 @@ VISTA
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-300290
-County: Los Angeles
-
-DOMINO
-County: Los Angeles
-
-LAC-300319
-County: Los Angeles
-
-JASPER
-County: Los Angeles
-
-LAC-300436
-County: Los Angeles
-
 LAC-300511
 County: Los Angeles
 
@@ -59,7 +44,13 @@ County: Los Angeles
 LAC-301770
 County: Los Angeles
 
-LAC-301821
+MILO
+County: Los Angeles
+
+LAC-301909
+County: Los Angeles
+
+LAC-301937
 County: Los Angeles
 
 
@@ -76,4 +67,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-24 02:00 PM PT
+2026-08-24 03:48 PM PT
