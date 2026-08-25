@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-DESERT
-County: Los Angeles
-
 LAC-301423
 County: Los Angeles
 
@@ -63,4 +60,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-25 02:55 AM PT
+2026-08-25 04:03 AM PT
