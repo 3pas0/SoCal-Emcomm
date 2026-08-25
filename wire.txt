@@ -7,16 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-VISTA
-County: Los Angeles
-Size: 0.1 acres
-
-VISTA
-County: Los Angeles
-
-LAC-300894
-County: Los Angeles
-
 LAC-301035
 County: Los Angeles
 
@@ -53,6 +43,15 @@ County: Los Angeles
 LAC-302310
 County: Los Angeles
 
+PAUL
+County: Los Angeles
+
+LAC-302408
+County: Los Angeles
+
+LAC-302415
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -67,4 +66,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-24 08:15 PM PT
+2026-08-24 10:08 PM PT
