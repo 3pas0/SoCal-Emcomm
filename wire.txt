@@ -5,8 +5,56 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
 FIRE:
-Fire feed temporarily unavailable.
-Error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (119151 request units)! maximum allowed request units (115200) per Minute. Retry after 60 sec.']}
+ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
+
+EARL
+County: Los Angeles
+
+LAC-302304
+County: Los Angeles
+
+LAC-302310
+County: Los Angeles
+
+PAUL
+County: Los Angeles
+
+LAC-302408
+County: Los Angeles
+
+LAC-302415
+County: Los Angeles
+
+LAC-302494
+County: Los Angeles
+
+LAC-302653
+County: Los Angeles
+
+LAC-302672
+County: Los Angeles
+
+GOLDEN
+County: Los Angeles
+
+LAC-302757
+County: Los Angeles
+
+LAC-302946
+County: Los Angeles
+
+LAC-302955
+County: Los Angeles
+
+LAC-302976
+County: Los Angeles
+
+LAC-303072
+County: Los Angeles
+
+LAC-303234
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-25 02:55 PM PT
+2026-08-25 03:59 PM PT
