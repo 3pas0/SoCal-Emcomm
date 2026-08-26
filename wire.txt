@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-EARL
-County: Los Angeles
-
-LAC-302304
-County: Los Angeles
-
-LAC-302310
-County: Los Angeles
-
 PAUL
 County: Los Angeles
 
@@ -58,6 +49,12 @@ County: Los Angeles
 LAC-303365
 County: Los Angeles
 
+LAC-303541
+County: Los Angeles
+
+LAC-303623
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -72,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-25 04:51 PM PT
+2026-08-25 08:33 PM PT
