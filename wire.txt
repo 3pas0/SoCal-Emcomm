@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-PAUL
-County: Los Angeles
-
-LAC-302408
-County: Los Angeles
-
-LAC-302415
-County: Los Angeles
-
 LAC-302494
 County: Los Angeles
 
@@ -69,4 +60,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-25 08:33 PM PT
+2026-08-25 10:19 PM PT
