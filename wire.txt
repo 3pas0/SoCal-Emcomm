@@ -7,31 +7,40 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-COLLEGE
-County: Los Angeles
-
-LAC-305151
-County: Los Angeles
-
-CARMEN
-County: Los Angeles
-
-LIBERTY
-County: Los Angeles
-
-YORK
-County: Los Angeles
-
-SUNRISE
-County: Los Angeles
-
-FOX
-County: Los Angeles
-
-LAC-306006
-County: Los Angeles
-
 LAC-306142
+County: Los Angeles
+
+LAC-306348
+County: Los Angeles
+
+LAC-306404
+County: Los Angeles
+
+LAC-306430
+County: Los Angeles
+
+LAKE
+County: Los Angeles
+
+HANGER
+County: Los Angeles
+
+LAC-306759
+County: Los Angeles
+
+LAC-306889
+County: Los Angeles
+
+LAC-306981
+County: Los Angeles
+
+LAC-307040
+County: Los Angeles
+
+CAMPUS
+County: Los Angeles
+
+LAC-307339
 County: Los Angeles
 
 
@@ -48,4 +57,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-27 06:35 PM PT
+2026-08-28 02:54 PM PT
