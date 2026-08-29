@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-307040
-County: Los Angeles
-
 CAMPUS
 County: Los Angeles
 
@@ -66,4 +63,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-29 10:30 AM PT
+2026-08-29 11:00 AM PT
