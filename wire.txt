@@ -52,6 +52,9 @@ County: Los Angeles
 CATE
 County: Los Angeles
 
+DYLAN
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -66,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-29 11:30 AM PT
+2026-08-29 12:00 PM PT
