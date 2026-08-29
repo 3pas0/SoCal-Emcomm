@@ -46,7 +46,7 @@ County: Los Angeles
 LAC-307633
 County: Los Angeles
 
-LAC-307637
+LAND
 County: Los Angeles
 
 
@@ -63,4 +63,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-28 05:30 PM PT
+2026-08-28 06:00 PM PT
