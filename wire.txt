@@ -7,10 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-DILLON
-County: Los Angeles
-Size: 0.1 acres
-
 LAC-309106
 County: Los Angeles
 
@@ -49,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-30 12:30 PM PT
+2026-08-30 01:00 PM PT
