@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-HENRY
-County: Los Angeles
-
 LAC-307633
 County: Los Angeles
 
@@ -69,4 +66,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-29 05:01 PM PT
+2026-08-29 05:31 PM PT
