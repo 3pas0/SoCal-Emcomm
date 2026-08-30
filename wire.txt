@@ -11,9 +11,6 @@ DILLON
 County: Los Angeles
 Size: 0.1 acres
 
-BAR
-County: Los Angeles
-
 CATE
 County: Los Angeles
 
@@ -55,4 +52,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-30 09:00 AM PT
+2026-08-30 09:30 AM PT
