@@ -32,6 +32,9 @@ County: Los Angeles
 DELL
 County: Los Angeles
 
+LILY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -46,4 +49,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-30 12:00 PM PT
+2026-08-30 12:30 PM PT
