@@ -11,12 +11,6 @@ DILLON
 County: Los Angeles
 Size: 0.1 acres
 
-CATE
-County: Los Angeles
-
-DYLAN
-County: Los Angeles
-
 LAC-309106
 County: Los Angeles
 
@@ -52,4 +46,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-30 11:30 AM PT
+2026-08-30 12:00 PM PT
