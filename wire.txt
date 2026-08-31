@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LILY
-County: Los Angeles
-
 LAC-310605
 County: Los Angeles
 
@@ -51,4 +48,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-31 12:30 PM PT
+2026-08-31 01:00 PM PT
