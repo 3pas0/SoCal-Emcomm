@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-DELL
-County: Los Angeles
-
 LILY
 County: Los Angeles
 
@@ -45,4 +42,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-31 12:00 AM PT
+2026-08-31 12:30 AM PT
