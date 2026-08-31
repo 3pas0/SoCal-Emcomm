@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-309642
-County: Los Angeles
-
 DELL
 County: Los Angeles
 
@@ -48,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-08-30 11:30 PM PT
+2026-08-31 12:00 AM PT
