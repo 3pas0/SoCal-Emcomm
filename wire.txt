@@ -64,6 +64,9 @@ County: Los Angeles
 FELIX
 County: Los Angeles
 
+HILARY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -78,4 +81,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-01 02:00 PM PT
+2026-09-01 02:33 PM PT
