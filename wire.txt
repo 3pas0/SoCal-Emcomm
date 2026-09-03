@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-313370
-County: Los Angeles
-
 BETHANY
 County: Los Angeles
 
@@ -78,4 +75,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-02 05:01 PM PT
+2026-09-02 05:41 PM PT
