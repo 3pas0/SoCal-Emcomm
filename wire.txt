@@ -52,7 +52,7 @@ County: Los Angeles
 LAC-315774
 County: Los Angeles
 
-LAC-315809
+ESTATES
 County: Los Angeles
 
 
@@ -69,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-03 02:32 PM PT
+2026-09-03 03:01 PM PT
