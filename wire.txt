@@ -5,8 +5,47 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 
 
 FIRE:
-Fire feed temporarily unavailable.
-Error: HTTPSConnectionPool(host='services3.arcgis.com', port=443): Read timed out. (read timeout=30)
+ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
+
+LAC-315503
+County: Los Angeles
+
+LAC-315639
+County: Los Angeles
+
+LAC-315689
+County: Los Angeles
+
+LAC-315707
+County: Los Angeles
+
+LAC-315760
+County: Los Angeles
+
+LAC-315774
+County: Los Angeles
+
+ESTATES
+County: Los Angeles
+
+LAC-315962
+County: Los Angeles
+
+LAC-316109
+County: Los Angeles
+
+LAC-316247
+County: Los Angeles
+
+LAC-316313
+County: Los Angeles
+
+LAC-316629
+County: Los Angeles
+
+CORY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -21,4 +60,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-04 09:34 AM PT
+2026-09-04 10:01 AM PT
