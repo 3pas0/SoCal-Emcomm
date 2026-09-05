@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-CAMPUS
-County: Los Angeles
-
 TRAIL
 County: Los Angeles
 
@@ -54,4 +51,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-05 03:01 PM PT
+2026-09-05 03:31 PM PT
