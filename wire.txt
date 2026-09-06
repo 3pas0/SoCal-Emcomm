@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-CALVIN
-County: Los Angeles
-
 JASPER
 County: Los Angeles
 
@@ -36,4 +33,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-06 02:00 PM PT
+2026-09-06 02:31 PM PT
