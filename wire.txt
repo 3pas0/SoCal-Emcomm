@@ -28,6 +28,9 @@ County: Los Angeles
 CALVIN
 County: Los Angeles
 
+JASPER
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -42,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-05 05:01 PM PT
+2026-09-05 05:43 PM PT
