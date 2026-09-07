@@ -10,6 +10,9 @@ ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 LAC-320605
 County: Los Angeles
 
+LAC-321117
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -24,4 +27,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-07 06:04 AM PT
+2026-09-07 11:17 AM PT
