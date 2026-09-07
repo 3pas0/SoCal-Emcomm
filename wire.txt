@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-JASPER
-County: Los Angeles
-
 LAC-319004
 County: Los Angeles
 
@@ -33,4 +30,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-06 05:01 PM PT
+2026-09-06 05:43 PM PT
