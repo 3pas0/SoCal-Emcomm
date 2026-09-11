@@ -13,9 +13,6 @@ County: Los Angeles
 LAC-324928
 County: Los Angeles
 
-GETTY FIRE
-County: Los Angeles
-
 LAC-324946
 County: Los Angeles
 
@@ -55,6 +52,9 @@ County: Los Angeles
 LAC-325978
 County: Los Angeles
 
+LAC-326073
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -69,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-10 04:15 PM PT
+2026-09-10 06:13 PM PT
