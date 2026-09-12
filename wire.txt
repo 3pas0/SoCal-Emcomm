@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-326073
-County: Los Angeles
-
 OWEN
 County: Los Angeles
 
@@ -34,6 +31,12 @@ County: Los Angeles
 ALLEN
 County: Los Angeles
 
+LAC-327490
+County: Los Angeles
+
+LAC-327517
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -48,4 +51,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-11 04:22 PM PT
+2026-09-11 06:16 PM PT
