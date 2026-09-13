@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-VALLEY
-County: Los Angeles
-
 LAC-328972
 County: Los Angeles
 
@@ -48,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-13 02:10 PM PT
+2026-09-13 04:14 PM PT
