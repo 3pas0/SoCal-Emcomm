@@ -7,12 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-GRANDE
-County: Los Angeles
-
-LAC-327637
-County: Los Angeles
-
 LAC-328326
 County: Los Angeles
 
@@ -20,6 +14,15 @@ VALLEY
 County: Los Angeles
 
 LAC-328972
+County: Los Angeles
+
+LAC-328996
+County: Los Angeles
+
+LAC-329110
+County: Los Angeles
+
+AVA
 County: Los Angeles
 
 
@@ -36,4 +39,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-12 06:11 PM PT
+2026-09-12 11:20 PM PT
