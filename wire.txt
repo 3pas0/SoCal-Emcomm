@@ -7,20 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-331792
+MORRIS
 County: Los Angeles
-
-LAC-331852
-County: Los Angeles
-
-LAC-331884
-County: Los Angeles
-
-LAC-331937
-County: Los Angeles
-
-HUNGRY
-County: Los Angeles
+Size: 0.1 acres
 
 LAC-332316
 County: Los Angeles
@@ -43,6 +32,15 @@ County: Los Angeles
 LAC-333042
 County: Los Angeles
 
+SPUR
+County: Los Angeles
+
+MORRIS
+County: Los Angeles
+
+LAC-333365
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -57,4 +55,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-15 05:32 PM PT
+2026-09-15 10:23 PM PT
