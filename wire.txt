@@ -11,12 +11,6 @@ MORRIS
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-332672
-County: Los Angeles
-
-LAC-332861
-County: Los Angeles
-
 HANGER
 County: Los Angeles
 
@@ -38,6 +32,15 @@ County: Los Angeles
 LAC-333919
 County: Los Angeles
 
+LAC-334023
+County: Los Angeles
+
+LAC-334048
+County: Los Angeles
+
+LAC-334149
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -52,4 +55,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-16 11:56 AM PT
+2026-09-16 02:48 PM PT
