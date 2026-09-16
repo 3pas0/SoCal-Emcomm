@@ -11,15 +11,6 @@ MORRIS
 County: Los Angeles
 Size: 0.1 acres
 
-HANGER
-County: Los Angeles
-
-LAC-332998
-County: Los Angeles
-
-LAC-333042
-County: Los Angeles
-
 SPUR
 County: Los Angeles
 
@@ -55,4 +46,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-16 02:48 PM PT
+2026-09-16 04:55 PM PT
