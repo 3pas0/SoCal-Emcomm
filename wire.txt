@@ -7,16 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-MORRIS
-County: Los Angeles
-Size: 0.1 acres
-
-SPUR
-County: Los Angeles
-
-MORRIS
-County: Los Angeles
-
 LAC-333365
 County: Los Angeles
 
@@ -46,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-16 04:55 PM PT
+2026-09-16 06:57 PM PT
