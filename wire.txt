@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-335083
-County: Los Angeles
-
-MASON
-County: Los Angeles
-
-HORSE
-County: Los Angeles
-
 LAC-335283
 County: Los Angeles
 
@@ -40,6 +31,9 @@ County: Los Angeles
 LAC-336264
 County: Los Angeles
 
+LAC-336513
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -54,4 +48,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-18 10:19 AM PT
+2026-09-18 12:46 PM PT
