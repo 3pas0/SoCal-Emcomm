@@ -16,6 +16,12 @@ County: Los Angeles
 LOGAN
 County: Los Angeles
 
+MARGO
+County: Los Angeles
+
+LAC-338011
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -30,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-19 02:49 PM PT
+2026-09-19 04:41 PM PT
