@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-336841
-County: Los Angeles
-
 LAC-337843
 County: Los Angeles
 
@@ -20,6 +17,12 @@ MARGO
 County: Los Angeles
 
 LAC-338011
+County: Los Angeles
+
+LAC-338114
+County: Los Angeles
+
+LAC-338145
 County: Los Angeles
 
 
@@ -36,4 +39,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-19 04:41 PM PT
+2026-09-19 06:49 PM PT
