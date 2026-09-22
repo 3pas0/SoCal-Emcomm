@@ -7,12 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-339781
-County: Los Angeles
-
-LAC-339850
-County: Los Angeles
-
 LAC-339943
 County: Los Angeles
 
@@ -43,6 +37,9 @@ County: Los Angeles
 BRYSON
 County: Los Angeles
 
+LAC-341142
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -57,4 +54,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-21 11:23 PM PT
+2026-09-22 04:52 AM PT
