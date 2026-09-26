@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-344644
-County: Los Angeles
-
-LAC-344661
-County: Los Angeles
-
-HENRY
-County: Los Angeles
-
 LAC-345163
 County: Los Angeles
 
@@ -43,7 +34,19 @@ County: Los Angeles
 LAC-345734
 County: Los Angeles
 
-LAC-345849
+LUCAS
+County: Los Angeles
+
+MILLER
+County: Los Angeles
+
+LAC-345864
+County: Los Angeles
+
+ALAMO
+County: Los Angeles
+
+LAC-345966
 County: Los Angeles
 
 
@@ -60,4 +63,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-25 03:51 PM PT
+2026-09-25 05:58 PM PT
