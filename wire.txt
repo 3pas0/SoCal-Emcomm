@@ -7,17 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-345734
+DARK
 County: Los Angeles
-
-LUCAS
-County: Los Angeles
-
-MILLER
-County: Los Angeles
-
-LAC-345864
-County: Los Angeles
+Size: 0.0 acres
 
 ALAMO
 County: Los Angeles
@@ -37,6 +29,12 @@ County: Los Angeles
 LAC-346954
 County: Los Angeles
 
+DARK
+County: Los Angeles
+
+LAC-347256
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -51,4 +49,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-26 02:18 PM PT
+2026-09-26 04:41 PM PT
