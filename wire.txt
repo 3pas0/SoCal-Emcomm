@@ -11,9 +11,6 @@ DARK
 County: Los Angeles
 Size: 0.0 acres
 
-LAC-346434
-County: Los Angeles
-
 LAC-346643
 County: Los Angeles
 
@@ -55,4 +52,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-27 12:39 AM PT
+2026-09-27 06:21 AM PT
