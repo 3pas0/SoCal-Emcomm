@@ -7,14 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-347256
+DEXTER
 County: Los Angeles
-
-LAC-347391
-County: Los Angeles
-
-OTIS
-County: Los Angeles
+Size: 1.0 acres
 
 LAC-347444
 County: Los Angeles
@@ -46,6 +41,18 @@ County: Los Angeles
 FREEWAY
 County: Los Angeles
 
+LAC-348621
+County: Los Angeles
+
+LAC-348683
+County: Los Angeles
+
+LAC-348707
+County: Los Angeles
+
+LAC-348777
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -60,4 +67,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-27 04:15 PM PT
+2026-09-27 06:46 PM PT
