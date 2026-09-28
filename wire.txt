@@ -11,15 +11,6 @@ DEXTER
 County: Los Angeles
 Size: 1.0 acres
 
-LAC-347444
-County: Los Angeles
-
-LAC-347778
-County: Los Angeles
-
-DELL
-County: Los Angeles
-
 LAC-348023
 County: Los Angeles
 
@@ -53,6 +44,15 @@ County: Los Angeles
 LAC-348777
 County: Los Angeles
 
+LAC-348853
+County: Los Angeles
+
+LAC-348885
+County: Los Angeles
+
+LAC-349000
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -67,4 +67,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-27 06:46 PM PT
+2026-09-28 12:47 AM PT
