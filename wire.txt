@@ -7,25 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-DEXTER
-County: Los Angeles
-Size: 1.0 acres
-
-DEXTER
-County: Los Angeles
-
-LAC-348621
-County: Los Angeles
-
-LAC-348683
-County: Los Angeles
-
-LAC-348707
-County: Los Angeles
-
-LAC-348777
-County: Los Angeles
-
 LAC-348853
 County: Los Angeles
 
@@ -56,6 +37,12 @@ County: Los Angeles
 LAC-349831
 County: Los Angeles
 
+LAC-350039
+County: Los Angeles
+
+LAC-350082
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -70,4 +57,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-09-28 03:09 PM PT
+2026-09-28 07:05 PM PT
