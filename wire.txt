@@ -7,12 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-354118
-County: Los Angeles
-
-NORTH
-County: Los Angeles
-
 LAC-354515
 County: Los Angeles
 
@@ -58,6 +52,12 @@ County: Los Angeles
 LAC-355425
 County: Los Angeles
 
+TUJUNGA
+County: Los Angeles
+
+LAC-355724
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -72,4 +72,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-02 07:27 PM PT
+2026-10-03 01:23 AM PT
