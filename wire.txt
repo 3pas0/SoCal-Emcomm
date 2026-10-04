@@ -8,16 +8,6 @@ FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
 BOUQUET
-Area: Saugus
-County: Los Angeles
-Size: 0.1 acres
-Containment: 40%
-Info: 8 Miles NE from Saugus, CA
-
-LAC-356380
-County: Los Angeles
-
-BOUQUET
 County: Los Angeles
 
 LAC-356590
@@ -71,6 +61,21 @@ County: Los Angeles
 LAC-357641
 County: Los Angeles
 
+LAC-357751
+County: Los Angeles
+
+LAC-357758
+County: Los Angeles
+
+LAC-357921
+County: Los Angeles
+
+LAC-357982
+County: Los Angeles
+
+LAC-357961
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -85,4 +90,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-04 11:15 AM PT
+2026-10-04 02:40 PM PT
