@@ -10,15 +10,9 @@ ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 BOUQUET
 Area: Saugus
 County: Los Angeles
-Size: 1,000.0 acres
+Size: 0.1 acres
 Containment: 0%
 Info: 8 Miles NE from Saugus, CA
-
-TUJUNGA
-County: Los Angeles
-
-LAC-355724
-County: Los Angeles
 
 CARBON
 County: Los Angeles
@@ -53,6 +47,36 @@ County: Los Angeles
 CARTER
 County: Los Angeles
 
+LAC-356926
+County: Los Angeles
+
+LAC-356957
+County: Los Angeles
+
+LAC-356960
+County: Los Angeles
+
+LAC-356997
+County: Los Angeles
+
+LAC-357006
+County: Los Angeles
+
+LAC-357117
+County: Los Angeles
+
+LAC-357136
+County: Los Angeles
+
+LAC-357165
+County: Los Angeles
+
+LAC-357229
+County: Los Angeles
+
+LAC-357251
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -67,4 +91,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-03 07:45 PM PT
+2026-10-04 01:53 AM PT
