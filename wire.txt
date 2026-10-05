@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-BOUQUET
-County: Los Angeles
-
-LAC-356590
-County: Los Angeles
-
-LAC-356630
-County: Los Angeles
-
 CARTER
 County: Los Angeles
 
@@ -70,10 +61,25 @@ County: Los Angeles
 LAC-357921
 County: Los Angeles
 
-LAC-357982
+EMILY
 County: Los Angeles
 
-LAC-357961
+OWEN
+County: Los Angeles
+
+OWEN
+County: Los Angeles
+
+LAC-358039
+County: Los Angeles
+
+LAC-358073
+County: Los Angeles
+
+LAC-358096
+County: Los Angeles
+
+LAC-358184
 County: Los Angeles
 
 
@@ -90,4 +96,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-04 02:40 PM PT
+2026-10-04 05:15 PM PT
