@@ -40,6 +40,18 @@ County: Los Angeles
 LAC-360333
 County: Los Angeles
 
+LAC-360411
+County: Los Angeles
+
+LAC-360659
+County: Los Angeles
+
+BAKER
+County: Los Angeles
+
+LAC-360750
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -54,4 +66,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-06 08:18 AM PT
+2026-10-06 01:24 PM PT
