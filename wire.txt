@@ -11,18 +11,6 @@ ALISO
 County: Los Angeles
 Size: 0.1 acres
 
-OPHELLIA
-County: Los Angeles
-
-LAC-361736
-County: Los Angeles
-
-LAC-361745
-County: Los Angeles
-
-LAC-361784
-County: Los Angeles
-
 LAC-361876
 County: Los Angeles
 
@@ -65,6 +53,18 @@ County: Los Angeles
 LAC-362810
 County: Los Angeles
 
+LAC-363061
+County: Los Angeles
+
+FOX
+County: Los Angeles
+
+LAC-363108
+County: Los Angeles
+
+LAC-363143
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -79,4 +79,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-08 12:34 AM PT
+2026-10-08 07:58 AM PT
