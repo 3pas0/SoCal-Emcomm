@@ -7,23 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-361272
+ALISO
 County: Los Angeles
-
-LAC-361305
-County: Los Angeles
-
-LAC-361357
-County: Los Angeles
-
-LAC-361407
-County: Los Angeles
-
-BILLY
-County: Los Angeles
-
-LAC-361565
-County: Los Angeles
+Size: 0.1 acres
 
 OPHELLIA
 County: Los Angeles
@@ -70,6 +56,15 @@ County: Los Angeles
 LAC-362666
 County: Los Angeles
 
+LAC-362729
+County: Los Angeles
+
+LAC-362770
+County: Los Angeles
+
+LAC-362810
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -84,4 +79,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-07 06:22 PM PT
+2026-10-08 12:34 AM PT
