@@ -11,21 +11,6 @@ ALISO
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-362345
-County: Los Angeles
-
-LAC-362373
-County: Los Angeles
-
-LAC-362490
-County: Los Angeles
-
-LAC-362525
-County: Los Angeles
-
-HAWK
-County: Los Angeles
-
 LAC-362666
 County: Los Angeles
 
@@ -71,6 +56,24 @@ County: Los Angeles
 LAC-363644
 County: Los Angeles
 
+CLARK
+County: Los Angeles
+
+HEATHER
+County: Los Angeles
+
+LAC-363850
+County: Los Angeles
+
+LAC-363888
+County: Los Angeles
+
+LAC-363885
+County: Los Angeles
+
+DANNY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -85,4 +88,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-08 01:28 PM PT
+2026-10-08 05:31 PM PT
