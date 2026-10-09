@@ -7,21 +7,12 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-ALISO
+DANNY
+Area: Gorman, CA
 County: Los Angeles
-Size: 0.1 acres
-
-LAC-362666
-County: Los Angeles
-
-LAC-362729
-County: Los Angeles
-
-LAC-362770
-County: Los Angeles
-
-LAC-362810
-County: Los Angeles
+Size: 150.0 acres
+Containment: 13%
+Info: 2 Miles S from Gorman, CA
 
 LAC-363061
 County: Los Angeles
@@ -71,7 +62,16 @@ County: Los Angeles
 LAC-363885
 County: Los Angeles
 
-DANNY
+LAC-364041
+County: Los Angeles
+
+LAC-364068
+County: Los Angeles
+
+LAC-364080
+County: Los Angeles
+
+LAC-364345
 County: Los Angeles
 
 
@@ -88,4 +88,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-08 05:31 PM PT
+2026-10-08 11:50 PM PT
