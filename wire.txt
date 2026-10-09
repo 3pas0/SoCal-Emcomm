@@ -14,18 +14,6 @@ Size: 150.0 acres
 Containment: 13%
 Info: 2 Miles S from Gorman, CA
 
-LAC-363061
-County: Los Angeles
-
-FOX
-County: Los Angeles
-
-LAC-363108
-County: Los Angeles
-
-LAC-363143
-County: Los Angeles
-
 LAC-363399
 County: Los Angeles
 
@@ -88,4 +76,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-08 11:50 PM PT
+2026-10-09 06:53 AM PT
