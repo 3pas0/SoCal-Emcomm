@@ -11,15 +11,6 @@ BERT
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-365287
-County: Los Angeles
-
-LAC-365332
-County: Los Angeles
-
-LAC-365428
-County: Los Angeles
-
 LAC-365540
 County: Los Angeles
 
@@ -50,6 +41,12 @@ County: Los Angeles
 LAC-366477
 County: Los Angeles
 
+LAC-366589
+County: Los Angeles
+
+LAC-366704
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -64,4 +61,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-10 03:11 PM PT
+2026-10-10 06:03 PM PT
