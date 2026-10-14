@@ -13,6 +13,15 @@ County: Los Angeles
 LAC-370351
 County: Los Angeles
 
+HUGO
+County: Los Angeles
+
+LAC-370530
+County: Los Angeles
+
+LAC-370539
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -27,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-13 04:59 PM PT
+2026-10-13 08:37 PM PT
