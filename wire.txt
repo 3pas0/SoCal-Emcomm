@@ -11,12 +11,6 @@ TOWN
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-370863
-County: Los Angeles
-
-LAC-370878
-County: Los Angeles
-
 SCENIC
 County: Los Angeles
 
@@ -38,6 +32,18 @@ County: Los Angeles
 LAC-371734
 County: Los Angeles
 
+LAC-372063
+County: Los Angeles
+
+LAC-372068
+County: Los Angeles
+
+LAC-372070
+County: Los Angeles
+
+LAC-372082
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -52,4 +58,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-14 10:20 PM PT
+2026-10-15 03:07 AM PT
