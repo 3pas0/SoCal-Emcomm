@@ -11,12 +11,6 @@ TOWN
 County: Los Angeles
 Size: 0.1 acres
 
-SCENIC
-County: Los Angeles
-
-LAC-371157
-County: Los Angeles
-
 LAC-371289
 County: Los Angeles
 
@@ -44,6 +38,12 @@ County: Los Angeles
 LAC-372082
 County: Los Angeles
 
+PICO
+County: Los Angeles
+
+HOLLY
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -58,4 +58,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-15 08:08 AM PT
+2026-10-15 12:16 PM PT
