@@ -7,16 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-TOWN
-County: Los Angeles
-Size: 0.1 acres
-
-LAC-371289
-County: Los Angeles
-
-LAC-371456
-County: Los Angeles
-
 LAC-371632
 County: Los Angeles
 
@@ -44,6 +34,12 @@ County: Los Angeles
 HOLLY
 County: Los Angeles
 
+NORMA
+County: Los Angeles
+
+PEAK
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -58,4 +54,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-15 12:16 PM PT
+2026-10-15 03:29 PM PT
