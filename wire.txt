@@ -11,15 +11,6 @@ TOWN
 County: Los Angeles
 Size: 0.1 acres
 
-HUGO
-County: Los Angeles
-
-LAC-370530
-County: Los Angeles
-
-LAC-370539
-County: Los Angeles
-
 LAC-370863
 County: Los Angeles
 
@@ -44,6 +35,9 @@ County: Los Angeles
 LAC-371643
 County: Los Angeles
 
+LAC-371734
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -58,4 +52,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-14 05:37 PM PT
+2026-10-14 10:20 PM PT
