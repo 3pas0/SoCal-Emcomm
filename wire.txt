@@ -7,12 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-BRYSON
-County: Los Angeles
-Size: 200.0 acres
-Containment: 0%
-Info: 8 Miles S from Thousand Oaks, CA
-
 LAC-373161
 County: Los Angeles
 
@@ -52,6 +46,12 @@ County: Los Angeles
 SHORE
 County: Los Angeles
 
+LAC-374434
+County: Los Angeles
+
+LAC-374499
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -66,4 +66,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-16 04:42 PM PT
+2026-10-16 06:42 PM PT
