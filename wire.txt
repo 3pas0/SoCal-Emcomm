@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-373651
-County: Los Angeles
-
 DOMINO
 County: Los Angeles
 
@@ -72,4 +69,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-17 03:58 AM PT
+2026-10-17 07:02 AM PT
