@@ -7,11 +7,9 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-373859
+REPORT OF SMOKE
 County: Los Angeles
-
-AVA
-County: Los Angeles
+Size: 0.1 acres
 
 LAC-374257
 County: Los Angeles
@@ -63,4 +61,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-17 10:21 AM PT
+2026-10-17 12:32 PM PT
