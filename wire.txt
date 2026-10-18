@@ -11,9 +11,6 @@ REPORT OF SMOKE
 County: Los Angeles
 Size: 0.1 acres
 
-ALLEN
-County: Los Angeles
-
 LAC-375508
 County: Los Angeles
 
@@ -70,4 +67,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-18 07:56 AM PT
+2026-10-18 10:38 AM PT
