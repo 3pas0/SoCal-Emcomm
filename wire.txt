@@ -11,12 +11,6 @@ REPORT OF SMOKE
 County: Los Angeles
 Size: 0.1 acres
 
-LAC-374434
-County: Los Angeles
-
-LAC-374499
-County: Los Angeles
-
 LAC-374626
 County: Los Angeles
 
@@ -59,6 +53,9 @@ County: Los Angeles
 LAC-375755
 County: Los Angeles
 
+LAC-375820
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -73,4 +70,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-17 04:32 PM PT
+2026-10-17 06:39 PM PT
