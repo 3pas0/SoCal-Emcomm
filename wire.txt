@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-376787
-County: Los Angeles
-
-DAMON
-County: Los Angeles
-
-LAC-376823
-County: Los Angeles
-
 LAC-376891
 County: Los Angeles
 
@@ -40,6 +31,12 @@ County: Los Angeles
 LAC-377719
 County: Los Angeles
 
+LAC-378073
+County: Los Angeles
+
+LAC-378174
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -54,4 +51,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-19 07:47 AM PT
+2026-10-19 01:15 PM PT
