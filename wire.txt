@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-LAC-381681
-County: Los Angeles
-
 SUNSET
 County: Los Angeles
 
@@ -33,4 +30,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-23 12:43 AM PT
+2026-10-23 05:53 AM PT
