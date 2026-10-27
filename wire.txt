@@ -7,12 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-CACTUS
-County: Los Angeles
-
-LAC-386945
-County: Los Angeles
-
 LAC-387250
 County: Los Angeles
 
@@ -34,6 +28,12 @@ County: Los Angeles
 LAC-388058
 County: Los Angeles
 
+LAC-388234
+County: Los Angeles
+
+LAC-388246
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -48,4 +48,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-27 01:03 AM PT
+2026-10-27 07:41 AM PT
