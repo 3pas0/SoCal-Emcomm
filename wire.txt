@@ -22,6 +22,21 @@ County: Los Angeles
 LAC-391053
 County: Los Angeles
 
+LAC-391135
+County: Los Angeles
+
+IONA
+County: Los Angeles
+
+LAC-391258
+County: Los Angeles
+
+LAC-391285
+County: Los Angeles
+
+LAC-391289
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -36,4 +51,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-29 12:01 PM PT
+2026-10-29 04:24 PM PT
