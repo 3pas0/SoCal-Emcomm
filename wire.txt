@@ -28,6 +28,9 @@ County: Los Angeles
 LAC-391513
 County: Los Angeles
 
+LAC-392037
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -42,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-30 02:06 AM PT
+2026-10-30 09:02 AM PT
