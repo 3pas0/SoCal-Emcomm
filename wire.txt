@@ -7,6 +7,10 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
+TC
+County: Los Angeles
+Size: 0.0 acres
+
 LOGAN
 County: Los Angeles
 
@@ -17,6 +21,12 @@ LAC-394132
 County: Los Angeles
 
 LAC-394277
+County: Los Angeles
+
+LAC-395023
+County: Los Angeles
+
+LAC-395146
 County: Los Angeles
 
 
@@ -33,4 +43,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-01 08:10 AM PT
+2026-11-01 12:38 PM PT
