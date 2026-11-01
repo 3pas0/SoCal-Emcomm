@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-ADOBE
-County: Los Angeles
-
-LAC-393127
-County: Los Angeles
-
-LAC-393148
-County: Los Angeles
-
 LAC-393393
 County: Los Angeles
 
@@ -26,6 +17,9 @@ HERMAN
 County: Los Angeles
 
 LAC-394132
+County: Los Angeles
+
+LAC-394277
 County: Los Angeles
 
 
@@ -42,4 +36,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-10-31 07:25 PM PT
+2026-11-01 01:26 AM PT
