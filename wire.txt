@@ -7,15 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-HERMAN
-County: Los Angeles
-
-LAC-394132
-County: Los Angeles
-
-LAC-394277
-County: Los Angeles
-
 LAC-395023
 County: Los Angeles
 
@@ -26,6 +17,12 @@ LAC-395275
 County: Los Angeles
 
 LAC-395318
+County: Los Angeles
+
+LAC-395623
+County: Los Angeles
+
+LAC-395637
 County: Los Angeles
 
 
@@ -42,4 +39,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-01 03:59 PM PT
+2026-11-01 08:20 PM PT
