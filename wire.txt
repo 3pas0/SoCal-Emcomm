@@ -11,12 +11,6 @@ ARROW
 County: Los Angeles
 Size: 0.0 acres
 
-LAC-401562
-County: Los Angeles
-
-LAC-401583
-County: Los Angeles
-
 LAC-402238
 County: Los Angeles
 
@@ -27,6 +21,12 @@ ARROW
 County: Los Angeles
 
 LAC-402732
+County: Los Angeles
+
+LAC-402851
+County: Los Angeles
+
+LAC-402958
 County: Los Angeles
 
 
@@ -43,4 +43,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-07 06:12 AM PT
+2026-11-07 10:54 AM PT
