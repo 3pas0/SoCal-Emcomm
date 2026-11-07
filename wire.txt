@@ -7,6 +7,10 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
+ARROW
+County: Los Angeles
+Size: 0.0 acres
+
 LAC-401562
 County: Los Angeles
 
@@ -17,6 +21,12 @@ LAC-402238
 County: Los Angeles
 
 LAC-402436
+County: Los Angeles
+
+ARROW
+County: Los Angeles
+
+LAC-402732
 County: Los Angeles
 
 
@@ -33,4 +43,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-06 11:21 PM PT
+2026-11-07 06:12 AM PT
