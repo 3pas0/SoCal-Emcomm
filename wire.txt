@@ -7,9 +7,6 @@ LOS ANGELES COUNTY EMERGENCY INFORMATION
 FIRE:
 ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 
-CLARK
-County: Los Angeles
-
 LAC-413084
 County: Los Angeles
 
@@ -28,6 +25,12 @@ County: Los Angeles
 LAC-413847
 County: Los Angeles
 
+LOMA
+County: Los Angeles
+
+LAC-414078
+County: Los Angeles
+
 
 SOURCE:
 NIFC WFIGS Incident Locations - Last 24 Hours
@@ -42,4 +45,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-15 03:45 PM PT
+2026-11-15 07:20 PM PT
