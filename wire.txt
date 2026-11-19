@@ -10,16 +10,13 @@ ACTIVE / RECENT WILDFIRES - LOS ANGELES COUNTY
 LAC-417104
 County: Los Angeles
 
-LAC-416864
-County: Los Angeles
-
-LAC-416532
-County: Los Angeles
-
 LAC-417573
 County: Los Angeles
 
 LAC-417753
+County: Los Angeles
+
+LAC-417958
 County: Los Angeles
 
 
@@ -36,4 +33,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-18 05:31 PM PT
+2026-11-19 01:33 AM PT
