@@ -11,19 +11,6 @@ RISING
 County: Los Angeles
 Size: 0.1 acres
 
-GLENDORA
-County: Los Angeles
-Size: 0.0 acres
-
-BALDY
-County: Los Angeles
-
-LAC-427735
-County: Los Angeles
-
-LAC-427764
-County: Los Angeles
-
 LAC-428064
 County: Los Angeles
 
@@ -37,6 +24,18 @@ LAC-428223
 County: Los Angeles
 
 LAC-428920
+County: Los Angeles
+
+LAC-429030
+County: Los Angeles
+
+LAC-429037
+County: Los Angeles
+
+LAC-429190
+County: Los Angeles
+
+LAC-429189
 County: Los Angeles
 
 
@@ -53,4 +52,4 @@ Automated earthquake feed coming next.
 
 
 UPDATED:
-2026-11-27 12:50 AM PT
+2026-11-27 10:31 AM PT
